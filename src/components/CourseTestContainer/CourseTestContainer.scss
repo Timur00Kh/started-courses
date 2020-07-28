@@ -16,6 +16,14 @@ $font: 'Museo Sans Cyrl', apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto'
   font-family: $font;
 }
 
+.subheader {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000000;
+}
+
 .save-button {
   @include button-mixin;
   $btn-color: #014CFF;
@@ -78,4 +86,28 @@ $font: 'Museo Sans Cyrl', apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto'
     }
 
   }
+}
+
+.started-input {
+   width: 100%;
+   min-height: 55px;
+   background: #FFFFFF;
+   border: 1px solid #E1E3E6;
+   box-sizing: border-box;
+   border-radius: 8px;
+   padding: 0 20px
+ }
+
+.started-textarea {
+  width: 100%;
+  min-height: 160px;
+  background: #FFFFFF;
+  border: 1px solid #E1E3E6;
+  box-sizing: border-box;
+  border-radius: 8px;
+  padding: 20px
+}
+
+.w-100 {
+  width: 100% !important;
 }

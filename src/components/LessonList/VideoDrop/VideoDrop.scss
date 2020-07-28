@@ -1,0 +1,36 @@
+.video-drop-down {
+  height: 395px;
+  width: 100%;
+  border: 1px solid #F0F2F6;
+  box-sizing: border-box;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  transition: all .3s ease;
+  cursor: pointer;
+
+  &.active {
+    background: #c0c0c0;
+  }
+
+  &-placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+
+    display: flex;
+    align-items: center;
+    text-align: right;
+    letter-spacing: -0.32px;
+
+    /* dodgerBlue */
+
+    color: #434DFF;
+    margin: 16px 0;
+
+    &-icon {
+      margin-right: 10px;
+    }
+  }
+}

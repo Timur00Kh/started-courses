@@ -1,0 +1,44 @@
+.lesson-list {
+  &-item {
+    min-height: 72px;
+    border-bottom: 1px solid #F0F2F6;
+    border-top: 1px solid #F0F2F6;
+
+    &.active {
+      border-bottom: 0;
+    }
+
+    &-header {
+      margin-top: 24px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 22px;
+      color: #000000;
+    }
+
+    &-collapse {
+      user-select: none;
+      margin-top: 20px;
+      transition: all .2s ease;
+      cursor: pointer;
+    }
+  }
+}
+
+.video {
+  max-height: 395px;
+  max-width: 500px;
+}
+
+.input-label {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: right;
+  letter-spacing: -0.32px;
+  color: #818C99;
+  margin-top: 25px;
+  width: 100%;
+}

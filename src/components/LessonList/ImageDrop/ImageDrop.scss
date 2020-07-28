@@ -1,0 +1,43 @@
+.image-drop-down {
+  height: 88px;
+  width: 173px;
+  border: 1px solid #F0F2F6;
+  box-sizing: border-box;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  transition: all .3s ease;
+  cursor: pointer;
+
+  &.active {
+    background: #c0c0c0;
+  }
+
+  &-placeholder {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    display: flex;
+    align-items: center;
+    letter-spacing: -0.32px;
+
+    /* dustyGray */
+
+    color: #818C99;
+
+    &-icon {
+      margin-right: 10px;
+    }
+  }
+
+  &-poster {
+    height: 88px;
+    width: 173px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 8px;
+  }
+}

@@ -4,6 +4,7 @@ import {PosterList} from "../PosterList/PosterList";
 import addIcon from "../../icons/add.svg";
 import {PosterIcon} from "./icons/PosterIcon";
 import {LessonIcon} from "./icons/LessonIcon";
+import {LessonList} from "../LessonList/LessonList";
 
 const STEPS = {
     posters: 'posters',
@@ -35,7 +36,17 @@ export function CourseTestContainer(props) {
                     url: '/images/img3.png'
                 },
             ],
-            lessons: []
+            lessons: [
+                {
+                    id: '1',
+                    name: 'Урок для начинающих программистов Frontend',
+                    description: 'Описание урока для начинающих программистов Frontend'
+                },
+                {
+                    id: '2',
+                    name: 'Урок 2'
+                }
+            ]
         })
     }, []);
 
@@ -46,6 +57,14 @@ export function CourseTestContainer(props) {
         })
     };
 
+    const onLessonsChange = (lessons) => {
+        setCourse({
+            ...course,
+            lessons
+        })
+    };
+
+    /*TODO norm proverku*/
     if (!course) {
         return '';
     }
@@ -64,7 +83,7 @@ export function CourseTestContainer(props) {
                                     return <PosterList onPostersChange={onPostersChange} posters={course.posters}/>
                                 }
                                 case STEPS.lessons: {
-                                    return 'LessonList'
+                                    return <LessonList lessons={course.lessons} onLessonsChange={onLessonsChange}/>
                                 }
                             }
                         })()
