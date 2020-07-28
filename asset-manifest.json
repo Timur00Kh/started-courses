@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/started-courses/static/css/main.16e65349.chunk.css",
+    "main.js": "/started-courses/static/js/main.36b4d61e.chunk.js",
+    "main.js.map": "/started-courses/static/js/main.36b4d61e.chunk.js.map",
+    "runtime-main.js": "/started-courses/static/js/runtime-main.9e77fca4.js",
+    "runtime-main.js.map": "/started-courses/static/js/runtime-main.9e77fca4.js.map",
+    "static/js/2.8bbe3745.chunk.js": "/started-courses/static/js/2.8bbe3745.chunk.js",
+    "static/js/2.8bbe3745.chunk.js.map": "/started-courses/static/js/2.8bbe3745.chunk.js.map",
+    "index.html": "/started-courses/index.html",
+    "precache-manifest.bfb61ce15322d6ae30a67afcd48a459b.js": "/started-courses/precache-manifest.bfb61ce15322d6ae30a67afcd48a459b.js",
+    "service-worker.js": "/started-courses/service-worker.js",
+    "static/css/main.16e65349.chunk.css.map": "/started-courses/static/css/main.16e65349.chunk.css.map",
+    "static/js/2.8bbe3745.chunk.js.LICENSE.txt": "/started-courses/static/js/2.8bbe3745.chunk.js.LICENSE.txt",
+    "static/media/App.scss": "/started-courses/static/media/Museosanscyrl500.d97960c3.woff",
+    "static/media/add.svg": "/started-courses/static/media/add.c60a1889.svg",
+    "static/media/burger.svg": "/started-courses/static/media/burger.6385915d.svg",
+    "static/media/collapse.svg": "/started-courses/static/media/collapse.a0509c91.svg",
+    "static/media/delete.svg": "/started-courses/static/media/delete.314264c4.svg",
+    "static/media/img.svg": "/started-courses/static/media/img.3ab8affd.svg",
+    "static/media/load.svg": "/started-courses/static/media/load.745f8463.svg",
+    "static/media/logo.svg": "/started-courses/static/media/logo.5d5d9eef.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9e77fca4.js",
+    "static/js/2.8bbe3745.chunk.js",
+    "static/css/main.16e65349.chunk.css",
+    "static/js/main.36b4d61e.chunk.js"
+  ]
+}
